@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-tailwind.png">
+    <script src="js/main.js"></script>
+  </head>
+  <body class="antialiased bg-body text-body font-body">
+    <div class=""> 
+    
+      <section class="py-8 bg-blueGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="px-8 md:px-12 lg:px-20 pt-14 pb-12 sm:pb-16 bg-white rounded-3xl">
+            <div class="flex mb-6 sm:mb-10 flex-wrap items-center justify-between">
+              <h3 class="mb-8 sm:mb-0 text-xl font-heading font-medium leading-8">Sales Monitoring</h3>
+              <div class="w-full sm:w-auto">
+                <div class="relative inline-block mr-1 text-xxs border-2 border-gray-200 border-opacity-50 rounded-full tracking-wide hover:border-gray-300">
+                  <svg class="absolute top-1/2 right-0 mr-3 -mt-px" width="5" height="3" viewbox="0 0 5 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.35807 0.115939C4.50534 -0.0386464 4.74336 -0.0386464 4.88955 0.115939C5.03627 0.270525 5.03736 0.520284 4.88955 0.67487L2.76581 2.88406C2.61908 3.03865 2.3816 3.03865 2.23378 2.88406L0.110045 0.67487C-0.0366818 0.520861 -0.0366818 0.270525 0.110045 0.115939C0.257316 -0.0386464 0.49534 -0.0386464 0.641524 0.115939L2.50061 1.92771L4.35807 0.115939Z" fill="#1D1C1D"></path>
+                  </svg>
+                  <select class="py-1 pl-3 pr-6 font-bold tracking-wide bg-transparent outline-none appearance-none cursor-pointer" name="" id="">
+                    <option value="1">NOVEMBER</option>
+                    <option value="2">DECEMBER</option>
+                    <option value="3">JANUARY</option>
+                  </select>
+                </div>
+                <div class="relative inline-block text-xxs border-2 border-gray-200 border-opacity-50 rounded-full tracking-wide hover:border-gray-300">
+                  <svg class="absolute top-1/2 right-0 mr-3 -mt-px" width="5" height="3" viewbox="0 0 5 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.35807 0.115939C4.50534 -0.0386464 4.74336 -0.0386464 4.88955 0.115939C5.03627 0.270525 5.03736 0.520284 4.88955 0.67487L2.76581 2.88406C2.61908 3.03865 2.3816 3.03865 2.23378 2.88406L0.110045 0.67487C-0.0366818 0.520861 -0.0366818 0.270525 0.110045 0.115939C0.257316 -0.0386464 0.49534 -0.0386464 0.641524 0.115939L2.50061 1.92771L4.35807 0.115939Z" fill="#1D1C1D"></path>
+                  </svg>
+                  <select class="py-1 pl-3 pr-6 font-bold tracking-wide bg-transparent outline-none appearance-none cursor-pointer" name="" id="">
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                    <option value="3">2023</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="chart mb-16" data-type="area-small-blue"></div>
+            <div class="flex flex-wrap -mx-4 -mb-4">
+              <div class="px-4 mb-4">
+                <span class="inline-block mb-2 text-sm font-heading font-medium leading-7">Sales per user</span>
+                <div class="px-6 py-1 text-center bg-blue-50 rounded-full">
+                  <span class="text-sm font-bold text-blue-500 leading-7">$1039</span>
+                </div>
+              </div>
+              <div class="px-4 mb-4">
+                <span class="inline-block mb-2 text-sm font-heading font-medium leading-7">Inventory</span>
+                <div class="px-6 py-1 text-center bg-blue-200 bg-opacity-70 rounded-full">
+                  <span class="text-sm font-bold text-blue-500 leading-7">$435,122</span>
+                </div>
+              </div>
+              <div class="px-4 mb-4">
+                <span class="inline-block mb-2 text-sm font-heading font-medium leading-7">Value of refunds</span>
+                <div class="px-6 py-1 text-center bg-green-200 bg-opacity-70 rounded-full">
+                  <span class="text-sm font-bold text-blue-500 leading-7">$57,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-8 bg-blueGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap -mx-3">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Subscriptions</h3>
+                <div class="chart" data-type="radial-bar-subscriptions"></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Payments</h3>
+                <div class="chart" data-type="radial-bar-payments"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-8 bg-blueGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="h-full px-8 md:px-12 lg:px-16 pt-14 pb-12 sm:pb-16 mb-5 bg-white rounded-3xl">
+            <div class="flex mb-10 items-center justify-between">
+              <h3 class="text-xl font-heading font-medium">Balance</h3>
+              <div class="relative inline-block mr-1 text-xxs border-2 border-gray-200 border-opacity-50 rounded-full tracking-wide hover:border-gray-300">
+                <svg class="absolute top-1/2 right-0 mr-3 -mt-px" width="5" height="3" viewbox="0 0 5 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.35807 0.115939C4.50534 -0.0386464 4.74336 -0.0386464 4.88955 0.115939C5.03627 0.270525 5.03736 0.520284 4.88955 0.67487L2.76581 2.88406C2.61908 3.03865 2.3816 3.03865 2.23378 2.88406L0.110045 0.67487C-0.0366818 0.520861 -0.0366818 0.270525 0.110045 0.115939C0.257316 -0.0386464 0.49534 -0.0386464 0.641524 0.115939L2.50061 1.92771L4.35807 0.115939Z" fill="#1D1C1D"></path>
+                </svg>
+                <select class="py-1 pl-3 pr-6 font-bold tracking-wide bg-transparent outline-none appearance-none cursor-pointer" name="" id="">
+                  <option value="1">NOVEMBER</option>
+                  <option value="2">DECEMBER</option>
+                  <option value="3">JANUARY</option>
+                </select>
+              </div>
+            </div>
+            <div class="flex flex-wrap -mx-2 mb-14">
+              <div class="w-full md:w-1/2 lg:w-4/12 px-2 mb-10 md:mb-0">
+                <div class="flex items-start">
+                  <img class="mr-3" src="uinel-assets/elements/dashboard-stats/icon1.svg" alt="">
+                  <div>
+                    <h4 class="mb-1 text-sm text-darkBlueGray-300 font-heading font-medium tracking-wide leading-5">Earnings</h4>
+                    <div class="flex mb-5 w-full md:w-auto items-center">
+                      <span class="text-3xl font-heading font-medium">48.53</span>
+                      <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+9%</span>
+                    </div>
+                    <p>
+                      <span class="inline-block mr-2 text-sm font-heading font-medium">Last week:</span>
+                      <span class="text-sm text-darkBlueGray-300 font-medium">0.078%</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 lg:w-4/12 px-2">
+                <div class="flex items-start">
+                  <img class="mr-3" src="uinel-assets/elements/dashboard-stats/icon2.svg" alt="">
+                  <div>
+                    <h4 class="mb-1 text-sm text-darkBlueGray-300 font-heading font-medium tracking-wide leading-5">Earnings</h4>
+                    <div class="flex mb-5 w-full md:w-auto items-center">
+                      <span class="text-3xl font-heading font-medium">43.53</span>
+                      <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+2%</span>
+                    </div>
+                    <p>
+                      <span class="inline-block mr-2 text-sm font-heading font-medium">Last week:</span>
+                      <span class="text-sm text-darkBlueGray-300 font-medium">0.078%</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chart" data-type="area-small-blue"></div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-8 bg-blueGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap -mx-3">
+            <div class="w-full md:w-1/2 px-3 mb-6">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Subscriptions</h3>
+                <div class="chart" data-type="radial-bar-subscriptions"></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-3 mb-6">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Payments</h3>
+                <div class="chart" data-type="radial-bar-payments"></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Inventory</h3>
+                <div class="chart" data-type="radial-bar-inventory"></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Sales</h3>
+                <div class="chart" data-type="radial-bar-sales"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-8 bg-blueGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap -mx-3">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 lg:mb-0">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Subscriptions</h3>
+                <div class="chart" data-type="radial-bar-subscriptions"></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 lg:mb-0">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Payments</h3>
+                <div class="chart" data-type="radial-bar-payments"></div>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/3 px-3">
+              <div class="pt-12 pb-20 px-8 md:px-12 lg:px-16 bg-white rounded-3xl">
+                <h3 class="mb-8 text-xl font-heading font-medium">Inventory</h3>
+                <div class="chart" data-type="radial-bar-inventory"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-8 bg-blueGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap -mx-3">
+            <div class="w-full lg:w-1/2 px-3 mb-6 lg:mb-0">
+              <div class="h-full px-8 md:px-12 lg:px-16 pt-14 pb-12 sm:pb-16 mb-5 bg-white rounded-3xl">
+                <div class="flex mb-10 items-center justify-between">
+                  <h3 class="text-xl font-heading font-medium">Balance</h3>
+                  <div class="relative inline-block mr-1 text-xxs border-2 border-gray-200 border-opacity-50 rounded-full tracking-wide hover:border-gray-300">
+                    <svg class="absolute top-1/2 right-0 mr-3 -mt-px" width="5" height="3" viewbox="0 0 5 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.35807 0.115939C4.50534 -0.0386464 4.74336 -0.0386464 4.88955 0.115939C5.03627 0.270525 5.03736 0.520284 4.88955 0.67487L2.76581 2.88406C2.61908 3.03865 2.3816 3.03865 2.23378 2.88406L0.110045 0.67487C-0.0366818 0.520861 -0.0366818 0.270525 0.110045 0.115939C0.257316 -0.0386464 0.49534 -0.0386464 0.641524 0.115939L2.50061 1.92771L4.35807 0.115939Z" fill="#1D1C1D"></path>
+                    </svg>
+                    <select class="py-1 pl-3 pr-6 font-bold tracking-wide bg-transparent outline-none appearance-none cursor-pointer" name="" id="">
+                      <option value="1">NOVEMBER</option>
+                      <option value="2">DECEMBER</option>
+                      <option value="3">JANUARY</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-2 mb-14">
+                  <div class="w-full md:w-1/2 px-2 mb-10 md:mb-0">
+                    <div class="flex items-start">
+                      <img class="mr-3" src="uinel-assets/elements/dashboard-stats/icon1.svg" alt="">
+                      <div>
+                        <h4 class="mb-1 text-sm text-darkBlueGray-300 font-heading font-medium tracking-wide leading-5">Earnings</h4>
+                        <div class="flex mb-5 w-full md:w-auto items-center">
+                          <span class="text-3xl font-heading font-medium">48.53</span>
+                          <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+9%</span>
+                        </div>
+                        <p>
+                          <span class="inline-block mr-2 text-sm font-heading font-medium">Last week:</span>
+                          <span class="text-sm text-darkBlueGray-300 font-medium">0.078%</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 px-2">
+                    <div class="flex items-start">
+                      <img class="mr-3" src="uinel-assets/elements/dashboard-stats/icon2.svg" alt="">
+                      <div>
+                        <h4 class="mb-1 text-sm text-darkBlueGray-300 font-heading font-medium tracking-wide leading-5">Earnings</h4>
+                        <div class="flex mb-5 w-full md:w-auto items-center">
+                          <span class="text-3xl font-heading font-medium">43.53</span>
+                          <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+2%</span>
+                        </div>
+                        <div>
+                          <span class="inline-block mr-2 text-sm font-heading font-medium">Last week:</span>
+                          <span class="text-sm text-darkBlueGray-300 font-medium">0.078%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="chart" data-type="area-small-blue"></div>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-3">
+              <div class="px-8 md:px-12 lg:px-16 pt-14 pb-12 sm:pb-16 mb-6 bg-white rounded-3xl">
+                <h3 class="mb-3 font-heading font-medium text-indigo-600">Total income</h3>
+                <div class="flex items-center mb-4">
+                  <span class="text-3xl font-heading font-medium">$780,530.00</span>
+                  <span class="inline-block px-2 py-1 ml-4 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+8%</span>
+                </div>
+                <div class="relative w-full h-1 mb-3 bg-blue-100 rounded-sm">
+                  <div class="absolute top-0 left-0 w-3/5 h-full bg-blue-500 rounded-sm"></div>
+                </div>
+                <span class="text-sm text-darkBlueGray-400 font-heading">Yearly Goal</span>
+              </div>
+              <div class="px-8 md:px-12 lg:px-16 pt-14 pb-12 sm:pb-16 bg-white rounded-3xl">
+                <div class="flex mb-6 flex-wrap items-center justify-between">
+                  <h3 class="mb-3 md:mb-0 font-heading font-medium text-indigo-600">New Users</h3>
+                  <div class="flex w-full md:w-auto items-center">
+                    <span class="text-3xl font-heading font-medium">20.4%</span>
+                    <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+5%</span>
+                  </div>
+                </div>
+                <div class="chart" data-type="columns-stacked"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-8 bg-blueGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap -mx-3">
+            <div class="w-full lg:w-1/2 px-3 mb-6 lg:mb-0">
+              <div class="px-8 md:px-12 lg:px-16 pt-14 pb-12 sm:pb-16 mb-6 bg-white rounded-3xl">
+                <h3 class="mb-3 font-heading font-medium text-indigo-600">Total income</h3>
+                <div class="flex items-center mb-4">
+                  <span class="text-3xl font-heading font-medium">$780,530.00</span>
+                  <span class="inline-block px-2 py-1 ml-4 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+8%</span>
+                </div>
+                <div class="relative w-full h-1 mb-3 bg-blue-100 rounded-sm">
+                  <div class="absolute top-0 left-0 w-3/5 h-full bg-blue-500 rounded-sm"></div>
+                </div>
+                <span class="text-sm text-darkBlueGray-400 font-heading">Yearly Goal</span>
+              </div>
+              <div class="px-8 md:px-12 lg:px-16 pt-14 pb-12 sm:pb-16 bg-white rounded-3xl">
+                <div class="flex mb-6 flex-wrap items-center justify-between">
+                  <h3 class="mb-3 md:mb-0 font-heading font-medium text-indigo-600">New Users</h3>
+                  <div class="flex w-full md:w-auto items-center">
+                    <span class="text-3xl font-heading font-medium">20.4%</span>
+                    <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+5%</span>
+                  </div>
+                </div>
+                <div class="chart" data-type="columns-stacked"></div>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-3">
+              <div class="h-full px-8 md:px-12 lg:px-16 pt-14 pb-12 sm:pb-16 mb-5 bg-white rounded-3xl">
+                <div class="flex mb-10 items-center justify-between">
+                  <h3 class="text-xl font-heading font-medium">Balance</h3>
+                  <div class="relative inline-block mr-1 text-xxs border-2 border-gray-200 border-opacity-50 rounded-full tracking-wide hover:border-gray-300">
+                    <svg class="absolute top-1/2 right-0 mr-3 -mt-px" width="5" height="3" viewbox="0 0 5 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.35807 0.115939C4.50534 -0.0386464 4.74336 -0.0386464 4.88955 0.115939C5.03627 0.270525 5.03736 0.520284 4.88955 0.67487L2.76581 2.88406C2.61908 3.03865 2.3816 3.03865 2.23378 2.88406L0.110045 0.67487C-0.0366818 0.520861 -0.0366818 0.270525 0.110045 0.115939C0.257316 -0.0386464 0.49534 -0.0386464 0.641524 0.115939L2.50061 1.92771L4.35807 0.115939Z" fill="#1D1C1D"></path>
+                    </svg>
+                    <select class="py-1 pl-3 pr-6 font-bold tracking-wide bg-transparent outline-none appearance-none cursor-pointer" name="" id="">
+                      <option value="1">NOVEMBER</option>
+                      <option value="2">DECEMBER</option>
+                      <option value="3">JANUARY</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-2 mb-14">
+                  <div class="w-full md:w-1/2 px-2 mb-10 md:mb-0">
+                    <div class="flex items-start">
+                      <img class="mr-3" src="uinel-assets/elements/dashboard-stats/icon1.svg" alt="">
+                      <div>
+                        <h4 class="mb-1 text-sm text-darkBlueGray-300 font-heading font-medium tracking-wide leading-5">Earnings</h4>
+                        <div class="flex mb-5 w-full md:w-auto items-center">
+                          <span class="text-3xl font-heading font-medium">48.53</span>
+                          <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+9%</span>
+                        </div>
+                        <p>
+                          <span class="inline-block mr-2 text-sm font-heading font-medium">Last week:</span>
+                          <span class="text-sm text-darkBlueGray-300 font-medium">0.078%</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 px-2">
+                    <div class="flex items-start">
+                      <img class="mr-3" src="uinel-assets/elements/dashboard-stats/icon2.svg" alt="">
+                      <div>
+                        <h4 class="mb-1 text-sm text-darkBlueGray-300 font-heading font-medium tracking-wide leading-5">Earnings</h4>
+                        <div class="flex mb-5 w-full md:w-auto items-center">
+                          <span class="text-3xl font-heading font-medium">43.53</span>
+                          <span class="inline-block px-2 py-1 ml-2 text-xxs text-green-500 font-bold bg-green-200 bg-opacity-70 rounded-full">+2%</span>
+                        </div>
+                        <div>
+                          <span class="inline-block mr-2 text-sm font-heading font-medium">Last week:</span>
+                          <span class="text-sm text-darkBlueGray-300 font-medium">0.078%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="chart" data-type="area-small-blue"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/charts-demo.js"></script>    
+  </body>
+</html>
+
