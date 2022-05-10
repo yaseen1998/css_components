@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-tailwind.png">
+    <script src="js/main.js"></script>
+  </head>
+  <body class="antialiased bg-body text-body font-body">
+    <div class="">
+        
+      <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <div class="p-8 lg:p-20 bg-white">
+            <h2 class="mb-20 text-5xl font-bold font-heading">Billing address</h2>
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full xl:w-2/3 px-4">
+                <form action="">
+                  <div class="flex flex-wrap -mx-4">
+                    <div class="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
+                      <div class="mb-10">
+                        <label class="font-bold font-heading text-gray-600" for="">First Name</label>
+                        <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                      <div>
+                        <label class="font-bold font-heading text-gray-600" for="">Username</label>
+                        <div class="mt-4 flex items-center rounded-md">
+                          <span class="self-stretch px-6 border border-r-0 rounded-l-md">
+                            <svg class="h-full" width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M8 0C3.58888 0 0 3.58888 0 8C0 12.4111 3.58888 16 8 16C9.51561 16 10.9912 15.5737 12.2671 14.7681L11.7329 13.9224C10.6172 14.6275 9.32617 15 8 15C4.14016 15 0.999996 11.8599 0.999996 8.00003C0.999996 4.14016 4.14013 0.999996 8 0.999996C11.8599 0.999996 15 4.14013 15 8V8.50001C15 9.32717 14.3271 10 13.5 10C12.6728 10 12 9.32717 12 8.50001V5.00001H11V5.3824C10.2662 4.54241 9.20032 4.00002 8 4.00002C5.79444 4.00002 4.00002 5.79444 4.00002 8C4.00002 10.2056 5.79444 12 8 12C9.49433 12 10.7844 11.1667 11.471 9.94946C11.925 10.5829 12.663 11 13.5 11C14.8784 11 16 9.87842 16 8.49998V7.99997C16 3.58888 12.4111 0 8 0V0ZM8 11C6.34569 11 5.00001 9.65428 5.00001 8C5.00001 6.34572 6.34572 5.00001 8 5.00001C9.65428 5.00001 11 6.34572 11 8C11 9.65428 9.65428 11 8 11Z" fill="black"></path>
+                            </svg>
+                          </span>
+                          <input class="block w-full py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-r-md" type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 px-4">
+                      <div>
+                        <label class="font-bold font-heading text-gray-600" for="">Last Name</label>
+                        <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                    </div>
+                    <div class="w-full mt-10 mb-10 px-4">
+                      <div class="flex flex-wrap -mx-4">
+                        <div class="w-full lg:w-1/2 px-4 mb-10 md:mb-0">
+                          <div class="lg:mb-10">
+                            <label class="font-bold font-heading text-gray-600" for="">Address 1</label>
+                            <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                          </div>
+                          <div class="hidden lg:block">
+                            <label class="font-bold font-heading text-gray-600" for="">Country</label>
+                            <select class="block w-full mt-4 py-4 px-8 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" name="" id="">
+                              <option value="1"></option>
+                              <option value="2">United States</option>
+                              <option value="3">Spain</option>
+                              <option value="4">Poland</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 px-4">
+                          <div class="mb-10">
+                            <label class="font-bold font-heading text-gray-600" for="">Address 2</label>
+                            <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                          </div>
+                          <div class="mb-10 lg:hidden">
+                            <label class="font-bold font-heading text-gray-600" for="">Country</label>
+                            <select class="block w-full mt-4 py-4 px-8 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" name="" id="">
+                              <option value="1"></option>
+                              <option value="2">United States</option>
+                              <option value="3">Spain</option>
+                              <option value="4">Poland</option>
+                            </select>
+                          </div>
+                          <div class="flex flex-wrap -mx-4">
+                            <div class="w-full lg:w-3/5 px-4 mb-10 lg:mb-0">
+                              <label class="font-bold font-heading text-gray-600" for="">State</label>
+                              <select class="block w-full mt-4 py-4 px-8 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" name="" id="">
+                                <option value="1"></option>
+                                <option value="2">United States</option>
+                                <option value="3">Spain</option>
+                                <option value="4">Poland</option>
+                              </select>
+                            </div>
+                            <div class="w-full lg:w-2/5 px-4">
+                              <label class="font-bold font-heading text-gray-600" for="">Zip Code</label>
+                              <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full mb-8 px-4">
+                      <label class="flex mb-6 items-center">
+                        <input type="checkbox" name="accountType" value="personal">
+                        <span class="ml-2 text-sm">Shipping address is the same as my billing address</span>
+                      </label>
+                      <label class="flex items-center">
+                        <input type="checkbox" name="accountType" value="personal">
+                        <span class="ml-2 text-sm">Save this information for next time</span>
+                      </label>
+                    </div>
+                    <div class="w-full mb-8 px-4">
+                      <h3 class="mb-4 font-bold font-heading text-gray-600">Payment</h3>
+                      <label class="flex mb-6 items-center">
+                        <input type="radio" name="paymentType" value="" checked>
+                        <span class="ml-2 text-sm">Credit card</span>
+                      </label>
+                      <label class="flex mb-6 items-center">
+                        <input type="radio" name="paymentType" value="">
+                        <span class="ml-2 text-sm">Debit card</span>
+                      </label>
+                      <label class="flex items-center">
+                        <input type="radio" name="paymentType" value="">
+                        <span class="ml-2 text-sm">PayPal</span>
+                      </label>
+                    </div>
+                    <div class="w-full px-4">
+                      <div class="flex flex-wrap -mx-4 mb-10">
+                        <div class="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
+                          <div>
+                            <label class="font-bold font-heading text-gray-600" for="">Name on card</label>
+                            <input class="block w-full mt-4 mb-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                            <p class="text-sm text-gray-500">Full name as displayed on card</p>
+                          </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 px-4">
+                          <div>
+                            <label class="font-bold font-heading text-gray-600" for="">Credit card number</label>
+                            <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flex flex-wrap -mx-4">
+                        <div class="w-full md:w-1/2 px-4">
+                          <div class="mb-10">
+                            <label class="font-bold font-heading text-gray-600" for="">Expiration</label>
+                            <input class="block w-full mt-4 mb-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                          </div>
+                        </div>
+                        <div class="w-full md:w-1/2 px-4">
+                          <div class="mb-10">
+                            <label class="font-bold font-heading text-gray-600" for="">CVV</label>
+                            <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="w-full xl:w-1/3 px-4">
+                <div class="mb-12 p-6 lg:p-12 bg-blue-300">
+                  <div class="mb-6 pb-8 border-b border-blue-100">
+                    <h2 class="mb-6 text-3xl font-bold font-heading text-white">Order summary</h2>
+                    <p class="text-blue-50">Shipping and additional costs are calculated based on values you have entered.</p>
+                  </div>
+                  <div class="flex mb-2 justify-between items-center">
+                    <span class="text-blue-50">Order subtotal</span>
+                    <span class="text-xl font-bold font-heading text-white">$89.67</span>
+                  </div>
+                  <div class="flex mb-2 justify-between items-center">
+                    <span class="text-blue-50">Shipping</span>
+                    <span class="text-xl font-bold font-heading text-white">$11.00</span>
+                  </div>
+                  <div class="flex mb-5 justify-between items-center">
+                    <span class="text-blue-50">Tax</span>
+                    <span class="text-xl font-bold font-heading text-white">$0</span>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <span class="text-xl font-bold font-heading text-white">Total</span>
+                    <span class="text-xl font-bold font-heading text-white">$100.67</span>
+                  </div>
+                </div>
+                <div>
+                  <span class="inline-block mb-4 font-medium">Apply discount code:</span>
+                  <div class="flex mb-12 flex-wrap lg:flex-nowrap items-center">
+                    <input class="inline-block mb-4 md:mb-0 mr-4 px-4 py-4 placeholder-gray-800 font-bold font-heading border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text" placeholder="SUMMER30X">
+                    <a class="inline-block mb-4 md:mb-0 px-7 py-4 text-white font-bold font-heading uppercase bg-gray-800 hover:bg-gray-700 rounded-md" href="#">Apply</a>
+                  </div>
+                  <a class="block w-full py-4 bg-orange-300 hover:bg-orange-400 text-center text-white font-bold font-heading uppercase rounded-md transition duration-200" href="#">Go to Checkout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <div class="p-8 lg:p-20 bg-white">
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full lg:w-1/3 px-4 mb-10 lg:mb-0">
+                <div class="flex mb-12 items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-blue-300 text-white">1</span>
+                  <h3 class="text-2xl font-bold font-heading">Shipping address</h3>
+                </div>
+                <form action="">
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Email address</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="email">
+                  </div>
+                  <div class="mb-12">
+                    <p class="mb-5 text-sm text-gray-500">You can create an account after checkout</p>
+                    <div class="py-4 px-6 rounded-full bg-blue-50">
+                      <label class="flex items-center" for="">
+                        <input type="checkbox">
+                        <span class="ml-2 text-sm">Register/Choose a password</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">First name</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Last name</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Street address</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Street address 2</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Country</label>
+                    <select class="block w-full mt-4 py-4 px-8 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" name="" id="">
+                      <option value="1"></option>
+                      <option value="2">United States</option>
+                      <option value="3">Spain</option>
+                      <option value="4">Poland</option>
+                    </select>
+                  </div>
+                  <div class="mb-10">
+                    <div class="flex flex-wrap -mx-4">
+                      <div class="w-full md:w-3/5 px-4 mb-10 md:mb-0">
+                        <label class="font-bold font-heading text-gray-600" for="">State</label>
+                        <select class="block w-full mt-4 py-4 px-8 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" name="" id="">
+                          <option value="1"></option>
+                          <option value="2">United States</option>
+                          <option value="3">Spain</option>
+                          <option value="4">Poland</option>
+                        </select>
+                      </div>
+                      <div class="w-full md:w-2/5 px-4">
+                        <label class="font-bold font-heading text-gray-600" for="">Zip Code</label>
+                        <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                      <div class="w-full px-4 mt-8">
+                        <label class="flex items-center" for="">
+                          <input type="checkbox">
+                          <span class="ml-2 text-sm">I have a diffrent billing address</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="w-full lg:w-1/3 px-4 mb-10 lg:mb-0">
+                <div class="flex mb-12 items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-purple-300 text-white">2</span>
+                  <h3 class="text-2xl font-bold font-heading">Shipping methods</h3>
+                </div>
+                <div class="mb-12 pb-10 border-b">
+                  <p class="mb-3 font-bold font-heading text-gray-600">Flat Rate</p>
+                  <div class="mb-6">
+                    <label class="flex items-center" for="">
+                      <input class="mr-5" type="checkbox">
+                      <span>Fixed $0.00</span>
+                    </label>
+                  </div>
+                  <p class="mb-3 font-bold font-heading text-gray-600">Flat Rate</p>
+                  <div>
+                    <label class="flex items-center" for="">
+                      <input class="mr-5" type="checkbox">
+                      <span>Fixed $0.00</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="flex mb-12 items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-orange-300 text-white">3</span>
+                  <h3 class="text-2xl font-bold font-heading">Payment methods</h3>
+                </div>
+                <div class="mb-12">
+                  <label class="flex items-center mb-6" for="">
+                    <input class="mr-5" type="radio" name="paymentType" value="" checked>
+                    <span class="text-sm">Credit card</span>
+                  </label>
+                  <label class="flex items-center" for="">
+                    <input class="mr-5" type="radio" name="paymentType" value="">
+                    <span class="text-sm">Cash on Delivery</span>
+                  </label>
+                </div>
+                <div class="mb-8 px-8 py-10 bg-gray-100">
+                  <div class="mb-8">
+                    <label class="font-bold font-heading text-gray-600" for="">Name on card</label>
+                    <input class="block w-full mt-4 mb-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    <p class="text-sm text-gray-500">Full name as displayed on card</p>
+                  </div>
+                  <div class="mb-8">
+                    <label class="font-bold font-heading text-gray-600" for="">Credit card number</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-8">
+                    <label class="font-bold font-heading text-gray-600" for="">Expiration</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div>
+                    <label class="font-bold font-heading text-gray-600" for="">CVV</label>
+                    <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/3 px-4">
+                <div class="flex mb-12 items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-pink-300 text-white">4</span>
+                  <h3 class="text-2xl font-bold font-heading">Order summary</h3>
+                </div>
+                <div class="mb-12 p-6 lg:p-12 bg-blue-300">
+                  <div class="mb-6 pb-8 border-b border-blue-100">
+                    <div class="flex">
+                      <img class="w-20 h-24 object-cover" src="yofte-assets/images/waterbottle.png" alt="">
+                      <div class="pl-6">
+                        <h3 class="mb-3 text-xl font-bold font-heading text-white">BRILE water filter carafe</h3>
+                        <p class="text-lg font-bold font-heading text-white">$29.89</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex mb-2 justify-between items-center">
+                    <span class="text-blue-50">Order subtotal</span>
+                    <span class="text-xl font-bold font-heading text-white">$89.67</span>
+                  </div>
+                  <div class="flex mb-2 justify-between items-center">
+                    <span class="text-blue-50">Shipping</span>
+                    <span class="text-xl font-bold font-heading text-white">$11.00</span>
+                  </div>
+                  <div class="flex mb-5 justify-between items-center">
+                    <span class="text-blue-50">Tax</span>
+                    <span class="text-xl font-bold font-heading text-white">$0</span>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <span class="text-xl font-bold font-heading text-white">Total</span>
+                    <span class="text-xl font-bold font-heading text-white">$100.67</span>
+                  </div>
+                </div>
+                <div class="mb-10">
+                  <span class="inline-block mb-4 font-medium">Apply discount code:</span>
+                  <div class="flex mb-12 flex-wrap lg:flex-nowrap items-center">
+                    <input class="mb-4 md:mb-0 mr-4 px-4 py-4 placeholder-gray-800 font-bold font-heading border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text" placeholder="SUMMER30X">
+                    <a class="inline-block mb-4 md:mb-0 px-6 py-4 text-white font-bold font-heading uppercase bg-gray-800 hover:bg-gray-700 rounded-md" href="#">Apply</a>
+                  </div>
+                </div>
+                <div>
+                  <span class="block mb-4 font-medium">Order comment:</span>
+                  <textarea class="mb-12 w-full resize-none border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" name="" id="" cols="30" rows="10"></textarea><a class="block w-full py-4 bg-orange-300 hover:bg-orange-400 text-center text-white font-bold font-heading uppercase rounded-md transition duration-200" href="#">Go to Checkout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <h2 class="mb-12 text-5xl font-bold font-heading">Checkout</h2>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-2/3 px-4 mb-8 lg:mb-0">
+              <div class="mb-2 px-8 lg:px-20 py-12 bg-white">
+                <div class="flex mb-10 items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-blue-300 text-white">1</span>
+                  <h3 class="text-2xl font-bold font-heading">Delivery</h3>
+                </div>
+                <div class="flex flex-wrap -mx-4 mb-10">
+                  <div class="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
+                    <div>
+                      <label class="font-bold font-heading text-gray-600" for="">First name</label>
+                      <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-1/2 px-4">
+                    <div>
+                      <label class="font-bold font-heading text-gray-600" for="">Last name</label>
+                      <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                  <div class="w-full mt-10 mb-10 px-4">
+                    <div>
+                      <label class="font-bold font-heading text-gray-600" for="">Company name</label>
+                      <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                  <div class="w-full mb-10 px-4">
+                    <div class="flex flex-wrap -mx-4">
+                      <div class="w-full lg:w-2/5 px-4 mb-10 lg:mb-0">
+                        <div>
+                          <label class="font-bold font-heading text-gray-600" for="">Country</label>
+                          <select class="block w-full mt-4 py-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md outline-none cursor-pointer" name="" id="">
+                            <option value="1"></option>
+                            <option value="2">United States</option>
+                            <option value="3">Spain</option>
+                            <option value="4">Poland</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="w-full lg:w-2/5 px-4 mb-10 lg:mb-0">
+                        <div>
+                          <label class="font-bold font-heading text-gray-600" for="">City</label>
+                          <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                        </div>
+                      </div>
+                      <div class="w-full lg:w-1/5 px-4">
+                        <label class="font-bold font-heading text-gray-600" for="">Zip Code</label>
+                        <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full px-4">
+                    <div class="mb-10">
+                      <label class="font-bold font-heading text-gray-600" for="">Street address</label>
+                      <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                    <div class="mb-10">
+                      <label class="font-bold font-heading text-gray-600" for="">Email address</label>
+                      <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="email">
+                    </div>
+                    <div>
+                      <label class="font-bold font-heading text-gray-600" for="">Phone</label>
+                      <input class="block w-full mt-4 py-4 px-4 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="block mb-2 px-4 md:px-20 py-8 bg-white" href="#">
+                <div class="flex items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-purple-300 text-white">2</span>
+                  <h3 class="text-2xl font-bold font-heading">Payment</h3>
+                </div>
+              </a>
+              <a class="block mb-2 px-4 md:px-20 py-8 bg-white" href="#">
+                <div class="flex items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-orange-300 text-white">3</span>
+                  <h3 class="text-2xl font-bold font-heading">Confirm</h3>
+                </div>
+              </a>
+              <a class="block px-4 md:px-20 py-8 bg-white" href="#">
+                <div class="flex items-center">
+                  <span class="flex-shrink-0 inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-pink-300 text-white">4</span>
+                  <h3 class="text-2xl font-bold font-heading">Order summary</h3>
+                </div>
+              </a>
+            </div>
+            <div class="w-full lg:w-1/3 px-4">
+              <div class="mb-12 p-6 lg:p-12 bg-blue-300">
+                <div class="mb-6 pb-8 border-b border-blue-100">
+                  <h2 class="mb-6 text-3xl font-bold font-heading text-white">Order summary</h2>
+                  <p class="text-blue-50">Shipping and additional costs are calculated based on values you have entered.</p>
+                </div>
+                <div class="mb-2 py-2 px-8 border rounded-full">
+                  <div class="flex justify-between items-center">
+                    <span class="text-blue-50">Order subtotal</span>
+                    <span class="text-xl font-bold font-heading text-white">$89.67</span>
+                  </div>
+                </div>
+                <div class="mb-2 py-2 px-8 border rounded-full">
+                  <div class="flex justify-between items-center">
+                    <span class="text-blue-50">Shipping</span>
+                    <span class="text-xl font-bold font-heading text-white">$11.00</span>
+                  </div>
+                </div>
+                <div class="mb-10 py-2 px-8 border rounded-full">
+                  <div class="flex justify-between items-center">
+                    <span class="text-blue-50">Tax</span>
+                    <span class="text-xl font-bold font-heading text-white">$0</span>
+                  </div>
+                </div>
+                <div class="flex mb-8 justify-between items-center">
+                  <span class="text-xl font-bold font-heading text-white">Total</span>
+                  <span class="text-xl font-bold font-heading text-white">$100.67</span>
+                </div>
+                <a class="block w-full py-4 bg-orange-300 hover:bg-orange-400 text-center text-white font-bold font-heading uppercase rounded-md transition duration-200" href="#">Go to Checkout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <h2 class="mb-14 text-5xl font-bold font-heading">Checkout</h2>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4">
+              <form action="">
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-blue-300 text-white">1</span>
+                  <h3 class="text-2xl font-bold font-heading">Delivery</h3>
+                </div>
+                <div class="mb-12">
+                  <label class="font-bold font-heading text-gray-600" for="">E-mail address</label>
+                  <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="email">
+                </div>
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-purple-300 text-white">2</span>
+                  <h3 class="text-2xl font-bold font-heading">Shipping informations</h3>
+                </div>
+                <div class="mb-12">
+                  <div class="flex flex-wrap -mx-4 mb-10">
+                    <div class="w-full md:w-1/2 px-4 mb-10 md:mb-0">
+                      <label class="font-bold font-heading text-gray-600" for="">First name</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                    <div class="w-full md:w-1/2 px-4">
+                      <label class="font-bold font-heading text-gray-600" for="">Last name</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Address</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Appartament</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Country/Region</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="flex flex-wrap -mx-4">
+                    <div class="w-full md:w-2/3 px-4 mb-10 md:mb-0">
+                      <label class="font-bold font-heading text-gray-600" for="">City</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                    <div class="w-full md:w-1/3 px-4">
+                      <label class="font-bold font-heading text-gray-600" for="">Zip Code</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-orange-300 text-white">3</span>
+                  <h3 class="text-2xl font-bold font-heading">Shipping methods</h3>
+                </div>
+                <div class="mb-12">
+                  <div class="mb-2 py-3 px-8 bg-white rounded-full">
+                    <div class="flex flex-wrap items-center">
+                      <label class="inline-flex mb-1 pr-4 py-2 items-center sm:border-r" for="">
+                        <input type="radio" name="deliveryType" value="" checked>
+                        <span class="ml-4 text-sm font-bold font-heading">Standard delivery</span>
+                      </label>
+                      <p class="order-last w-full sm:w-auto pl-4 text-sm text-gray-500">3-4 business days</p>
+                      <span class="sm:order-last ml-auto text-blue-300 font-bold font-heading">$3.00</span>
+                    </div>
+                  </div>
+                  <div class="py-3 px-8 bg-white rounded-full">
+                    <div class="flex flex-wrap items-center">
+                      <label class="inline-flex mb-1 pr-4 py-2 items-center sm:border-r" for="">
+                        <input type="radio" name="deliveryType" value="">
+                        <span class="ml-4 text-sm font-bold font-heading">Express</span>
+                      </label>
+                      <p class="order-last w-full sm:w-auto pl-4 text-sm text-gray-500">Next day</p>
+                      <span class="sm:order-last ml-auto text-blue-300 font-bold font-heading">$20.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-pink-300 text-white">4</span>
+                  <h3 class="text-2xl font-bold font-heading">Order summary</h3>
+                </div>
+                <div>
+                  <div class="flex flex-wrap -mx-4 mb-10">
+                    <label class="flex px-4 w-full sm:w-auto items-center" for="">
+                      <input type="radio" name="paymentType" value="" checked>
+                      <span class="ml-5 text-sm">Credit card</span>
+                    </label>
+                    <label class="flex px-4 w-full sm:w-auto items-center" for="">
+                      <input type="radio" name="paymentType" value="">
+                      <span class="ml-5 text-sm">Cash on Delivery</span>
+                    </label>
+                    <label class="flex px-4 w-full sm:w-auto items-center" for="">
+                      <input type="radio" name="paymentType" value="">
+                      <span class="ml-5 text-sm">PayPal</span>
+                    </label>
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Name on Card</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Credit Card Type</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="flex flex-wrap -mx-4">
+                    <div class="w-full w-2/3 px-4">
+                      <div class="mb-10">
+                        <label class="font-bold font-heading text-gray-600" for="">Credit Card Number</label>
+                        <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                    </div>
+                    <div class="w-full w-1/3 px-4">
+                      <div class="mb-10">
+                        <label class="font-bold font-heading text-gray-600" for="">CVV</label>
+                        <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+              <div class="py-16 px-6 md:px-14 bg-white">
+                <div class="flex mb-12 items-center">
+                  <h2 class="text-4xl font-bold font-heading">Order summary</h2>
+                  <span class="flex-shrink-0 inline-flex ml-4 w-8 h-8 items-center justify-center rounded-full bg-orange-300 text-white">2</span>
+                </div>
+                <div class="mb-12 pb-16 border-b">
+                  <div class="flex -mx-4 mb-8 flex-wrap items-center">
+                    <div class="self-stretch w-full lg:w-1/4 px-4">
+                      <img class="mb-4 lg:mb-0 h-32 lg:h-42 object-contain" src="yofte-assets/images/waterbottle.png" alt="">
+                    </div>
+                    <div class="w-full md:w-3/4 px-4">
+                      <div class="flex justify-between">
+                        <div class="pr-2">
+                          <h3 class="mb-2 text-xl font-bold font-heading">BRILE water filter carafe</h3>
+                          <p class="mb-8 text-gray-500">Maecenas 0.7 commodo sit</p>
+                        </div>
+                        <span class="text-lg text-blue-300 font-bold font-heading">$29.89</span>
+                      </div>
+                      <div class="flex items-center justify-between">
+                        <p class="text-gray-500">In Stock</p>
+                        <div class="inline-flex items-center px-4 font-semibold font-heading text-gray-500 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md">
+                          <button class="py-2 hover:text-gray-700">
+                            <svg width="12" height="2" viewbox="0 0 12 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="12" width="2" height="12" transform="rotate(90 12 0)" fill="currentColor"></rect></g></svg>
+                          </button>
+                          <input class="w-12 m-0 px-2 py-4 text-center md:text-right border-0 focus:ring-transparent focus:outline-none rounded-md" type="number" placeholder="1">
+                          <button class="py-2 hover:text-gray-700">
+                            <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="5" width="2" height="12" fill="currentColor"></rect><rect x="12" y="5" width="2" height="12" transform="rotate(90 12 5)" fill="currentColor"></rect></g></svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex -mx-4 mb-8 flex-wrap items-center">
+                    <div class="self-stretch w-full lg:w-1/4 px-4">
+                      <img class="mb-4 lg:mb-0 h-32 lg:h-42 object-contain" src="yofte-assets/images/basketball.png" alt="">
+                    </div>
+                    <div class="w-full md:w-3/4 px-4">
+                      <div class="flex justify-between">
+                        <div class="pr-2">
+                          <h3 class="mb-2 text-xl font-bold font-heading">Nike basketball ball</h3>
+                          <p class="mb-8 text-gray-500">Lorem ipsum dolor L</p>
+                        </div>
+                        <span class="text-lg text-blue-300 font-bold font-heading">$59.78</span>
+                      </div>
+                      <div class="flex items-center justify-between">
+                        <p class="text-gray-500">In Stock</p>
+                        <div class="inline-flex items-center px-4 font-semibold font-heading text-gray-500 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md">
+                          <button class="py-2 hover:text-gray-700">
+                            <svg width="12" height="2" viewbox="0 0 12 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="12" width="2" height="12" transform="rotate(90 12 0)" fill="currentColor"></rect></g></svg>
+                          </button>
+                          <input class="w-12 m-0 px-2 py-4 text-center md:text-right border-0 focus:ring-transparent focus:outline-none rounded-md" type="number" placeholder="2">
+                          <button class="py-2 hover:text-gray-700">
+                            <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="5" width="2" height="12" fill="currentColor"></rect><rect x="12" y="5" width="2" height="12" transform="rotate(90 12 5)" fill="currentColor"></rect></g></svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-12">
+                  <div class="mb-10">
+                    <div class="py-3 px-10 bg-blue-50 rounded-full">
+                      <div class="flex justify-between">
+                        <span class="font-medium">Subtotal</span>
+                        <span class="font-bold font-heading">$89.67</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-10 rounded-full">
+                      <div class="flex justify-between">
+                        <span class="font-medium">Shipping</span>
+                        <span class="font-bold font-heading">$11.00</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-10 bg-blue-50 rounded-full">
+                      <div class="flex justify-between">
+                        <span class="font-medium">Tax</span>
+                        <span class="font-bold font-heading">$0.00</span>
+                      </div>
+                    </div>
+                    <div class="py-3 px-10 rounded-full">
+                      <div class="flex justify-between">
+                        <span class="text-base md:text-xl font-bold font-heading">Total</span>
+                        <span class="font-bold font-heading">$100.67</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-10">
+                  <span class="inline-block mb-4 font-medium">Apply discount code:</span>
+                  <div class="flex mb-12 flex-wrap lg:flex-nowrap items-center">
+                    <input class="mb-4 md:mb-0 mr-6 w-full px-8 py-4 placeholder-gray-800 font-bold font-heading border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text" placeholder="SUMMER30X">
+                    <a class="inline-block mb-4 md:mb-0 px-8 py-4 text-white font-bold font-heading uppercase bg-gray-800 hover:bg-gray-700 rounded-md" href="#">Apply</a>
+                  </div>
+                </div>
+                <a class="block w-full py-4 bg-orange-300 hover:bg-orange-400 text-center text-white font-bold font-heading uppercase rounded-md transition duration-200" href="#">Confirm Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="relative py-20 bg-gray-100 overflow-x-hidden">
+        <div class="relative container mx-auto px-4">
+          <h2 class="mb-14 text-5xl font-bold font-heading">Checkout</h2>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4">
+              <form action="">
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-blue-300 text-white">1</span>
+                  <h3 class="text-2xl font-bold font-heading">Delivery</h3>
+                </div>
+                <div class="mb-12">
+                  <label class="font-bold font-heading text-gray-600" for="">E-mail address</label>
+                  <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="email">
+                </div>
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-purple-300 text-white">2</span>
+                  <h3 class="text-2xl font-bold font-heading">Shipping informations</h3>
+                </div>
+                <div class="mb-12">
+                  <div class="flex flex-wrap -mx-4 mb-10">
+                    <div class="w-full md:w-1/2 px-4 mb-10 md:mb-0">
+                      <label class="font-bold font-heading text-gray-600" for="">First name</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                    <div class="w-full md:w-1/2 px-4">
+                      <label class="font-bold font-heading text-gray-600" for="">Last name</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Address</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Appartament</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Country/Region</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="flex flex-wrap -mx-4">
+                    <div class="w-full md:w-2/3 px-4 mb-10 md:mb-0">
+                      <label class="font-bold font-heading text-gray-600" for="">City</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                    <div class="w-full md:w-1/3 px-4">
+                      <label class="font-bold font-heading text-gray-600" for="">Zip Code</label>
+                      <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-orange-300 text-white">3</span>
+                  <h3 class="text-2xl font-bold font-heading">Shipping methods</h3>
+                </div>
+                <div class="mb-12">
+                  <div class="mb-2 py-3 px-8 bg-white rounded-full">
+                    <div class="flex flex-wrap items-center">
+                      <label class="inline-flex mb-1 pr-4 py-2 items-center sm:border-r" for="">
+                        <input type="radio" name="deliveryType" value="" checked>
+                        <span class="ml-4 text-sm font-bold font-heading">Standard delivery</span>
+                      </label>
+                      <p class="order-last w-full sm:w-auto pl-4 text-sm text-gray-500">3-4 business days</p>
+                      <span class="sm:order-last ml-auto text-blue-300 font-bold font-heading">$3.00</span>
+                    </div>
+                  </div>
+                  <div class="py-3 px-8 bg-white rounded-full">
+                    <div class="flex flex-wrap items-center">
+                      <label class="inline-flex mb-1 pr-4 py-2 items-center sm:border-r" for="">
+                        <input type="radio" name="deliveryType" value="">
+                        <span class="ml-4 text-sm font-bold font-heading">Express</span>
+                      </label>
+                      <p class="order-last w-full sm:w-auto pl-4 text-sm text-gray-500">Next day</p>
+                      <span class="sm:order-last ml-auto text-blue-300 font-bold font-heading">$20.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mb-10 items-center">
+                  <span class="inline-flex mr-8 items-center justify-center w-12 h-12 rounded-full bg-pink-300 text-white">4</span>
+                  <h3 class="text-2xl font-bold font-heading">Payment</h3>
+                </div>
+                <div>
+                  <div class="flex flex-wrap -mx-4 mb-10">
+                    <label class="flex px-4 w-full sm:w-auto items-center" for="">
+                      <input type="radio" name="paymentType" value="" checked>
+                      <span class="ml-5 text-sm">Credit card</span>
+                    </label>
+                    <label class="flex px-4 w-full sm:w-auto items-center" for="">
+                      <input type="radio" name="paymentType" value="">
+                      <span class="ml-5 text-sm">Cash on Delivery</span>
+                    </label>
+                    <label class="flex px-4 w-full sm:w-auto items-center" for="">
+                      <input type="radio" name="paymentType" value="">
+                      <span class="ml-5 text-sm">PayPal</span>
+                    </label>
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Name on Card</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="mb-10">
+                    <label class="font-bold font-heading text-gray-600" for="">Credit Card Type</label>
+                    <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                  </div>
+                  <div class="flex flex-wrap -mx-4">
+                    <div class="w-full md:w-2/3 px-4">
+                      <div class="mb-10">
+                        <label class="font-bold font-heading text-gray-600" for="">Credit Card Number</label>
+                        <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                    </div>
+                    <div class="w-full md:w-1/3 px-4">
+                      <div class="mb-10">
+                        <label class="font-bold font-heading text-gray-600" for="">CVV</label>
+                        <input class="block w-full mt-4 py-4 px-4 bg-white border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="lg:absolute lg:top-0 lg:right-0 w-full lg:w-2/5 mb-12 lg:mb-0">
+          <div class="py-16 px-6 md:px-14 bg-white">
+            <div class="flex mb-12 items-center">
+              <h2 class="text-4xl font-bold font-heading">Order summary</h2>
+              <span class="inline-flex ml-4 w-8 h-8 items-center justify-center rounded-full bg-orange-300 text-white">2</span>
+            </div>
+            <div class="mb-12 md:pb-16 border-b">
+              <div class="flex -mx-4 mb-8 flex-wrap items-center">
+                <div class="self-stretch w-full md:w-1/4 px-4 mb-4 lg:mb-0">
+                  <img class="h-32 lg:h-42 object-contain" src="yofte-assets/images/waterbottle.png" alt="">
+                </div>
+                <div class="w-full md:w-3/4 px-4">
+                  <div class="flex justify-between">
+                    <div class="pr-2">
+                      <h3 class="mb-2 text-xl font-bold font-heading">BRILE water filter carafe</h3>
+                      <p class="mb-8 text-gray-500">Maecenas 0.7 commodo sit</p>
+                    </div>
+                    <span class="text-lg text-blue-300 font-bold font-heading">$29.89</span>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <p class="text-gray-500">In Stock</p>
+                    <div class="inline-flex items-center px-4 font-semibold font-heading text-gray-500 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md">
+                      <button class="py-2 hover:text-gray-700">
+                        <svg width="12" height="2" viewbox="0 0 12 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="12" width="2" height="12" transform="rotate(90 12 0)" fill="currentColor"></rect></g></svg>
+                      </button>
+                      <input class="w-12 m-0 px-2 py-4 text-center md:text-right border-0 focus:ring-transparent focus:outline-none rounded-md" type="number" placeholder="1">
+                      <button class="py-2 hover:text-gray-700">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="5" width="2" height="12" fill="currentColor"></rect><rect x="12" y="5" width="2" height="12" transform="rotate(90 12 5)" fill="currentColor"></rect></g></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex -mx-4 mb-8 flex-wrap items-center">
+                <div class="self-stretch w-full md:w-1/4 px-4 mb-4 lg:mb-0">
+                  <img class="h-32 lg:h-42 object-contain" src="yofte-assets/images/basketball.png" alt="">
+                </div>
+                <div class="w-full md:w-3/4 px-4">
+                  <div class="flex justify-between">
+                    <div class="pr-2">
+                      <h3 class="mb-2 text-xl font-bold font-heading">Nike basketball ball</h3>
+                      <p class="mb-8 text-gray-500">Lorem ipsum dolor L</p>
+                    </div>
+                    <span class="text-lg text-blue-300 font-bold font-heading">$59.78</span>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <p class="text-gray-500">In Stock</p>
+                    <div class="inline-flex items-center px-4 font-semibold font-heading text-gray-500 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md">
+                      <button class="py-2 hover:text-gray-700">
+                        <svg width="12" height="2" viewbox="0 0 12 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="12" width="2" height="12" transform="rotate(90 12 0)" fill="currentColor"></rect></g></svg>
+                      </button>
+                      <input class="w-12 m-0 px-2 py-4 text-center md:text-right border-0 focus:ring-transparent focus:outline-none rounded-md" type="number" placeholder="2">
+                      <button class="py-2 hover:text-gray-700">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.35"><rect x="5" width="2" height="12" fill="currentColor"></rect><rect x="12" y="5" width="2" height="12" transform="rotate(90 12 5)" fill="currentColor"></rect></g></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-12">
+              <div class="mb-10">
+                <div class="py-3 px-10 bg-blue-50 rounded-full">
+                  <div class="flex justify-between">
+                    <span class="font-medium">Subtotal</span>
+                    <span class="font-bold font-heading">$89.67</span>
+                  </div>
+                </div>
+                <div class="py-3 px-10 rounded-full">
+                  <div class="flex justify-between">
+                    <span class="font-medium">Shipping</span>
+                    <span class="font-bold font-heading">$11.00</span>
+                  </div>
+                </div>
+                <div class="py-3 px-10 bg-blue-50 rounded-full">
+                  <div class="flex justify-between">
+                    <span class="font-medium">Tax</span>
+                    <span class="font-bold font-heading">$0.00</span>
+                  </div>
+                </div>
+                <div class="py-3 px-10 rounded-full">
+                  <div class="flex justify-between">
+                    <span class="text-base md:text-xl font-bold font-heading">Total</span>
+                    <span class="font-bold font-heading">$100.67</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-6 md:mb-10">
+              <span class="inline-block mb-4 font-medium">Apply discount code:</span>
+              <div class="flex mb-12 flex-wrap lg:flex-nowrap items-center">
+                <input class="mb-4 md:mb-0 mr-6 w-full px-8 py-4 placeholder-gray-800 font-bold font-heading border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md" type="text" placeholder="SUMMER30X">
+                <a class="inline-block mb-4 md:mb-0 px-8 py-4 text-white font-bold font-heading uppercase bg-gray-800 hover:bg-gray-700 rounded-md" href="#">Apply</a>
+              </div>
+            </div>
+            <a class="block w-full py-4 bg-orange-300 hover:bg-orange-400 text-center text-white font-bold font-heading uppercase rounded-md transition duration-200" href="#">Confirm Order</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+
